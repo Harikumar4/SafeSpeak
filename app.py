@@ -13,7 +13,7 @@ from flask_socketio import SocketIO, emit
 from flask_cors import CORS
 
 # Configuration Constants
-MODEL_PATH = r"C:\Users\harik\OneDrive\Desktop\SafeSpeak\vosk-model-small-en-us-0.15"
+MODEL_PATH = r"C:\Users\harik\OneDrive\Desktop\vosk-model-small-en-us-0.15"
 TEXT_OUTPUT_DIR = "transcriptions"
 FRAUD_OUTPUT_DIR = "fraud_analysis"
 AUDIO_OUTPUT_DIR = r"C:\Users\harik\OneDrive\Desktop\SafeSpeak-2\audio_segments"
